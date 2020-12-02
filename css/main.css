@@ -33,3 +33,8 @@ footer div ul li a:hover{
     color: #ffff;
     text-decoration: blue;
 }
+#nav1{
+    padding-left: 100px;
+    font-size: xx-large;
+    font-weight: bold;
+}

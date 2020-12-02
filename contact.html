@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/homepage.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/team.css">
+    <link rel="stylesheet" href="css/team-member.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,7 +17,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin= />
-    <title>Cuisine Web Site Teste html-css-bootsrap</title>
+    <title>Team Member Teste html-css-bootsrap </title>
 </head>
 <bod>
     <nav>
@@ -36,7 +39,7 @@
                                 <a class="nav-link " href="#">Accueil</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="team.html">Equipe</a>
+                                <a class="nav-link" href="#">Equipe</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Bolg</a>
@@ -50,7 +53,7 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid bg-dark">
+    <div id="dark" class="container-fluid bg-dark">
         <div class="row">
             <div class="col-4 offset-5">
                 <div><img id="img" src="img/logo_square_white.png" alt="logo_square_black">
@@ -59,65 +62,42 @@
         </div>
         <div class="row">
             <div class="col-4 offset-5">
-                <h3>Cui'zine</h3>
+                <h3>Nous contacter</h3>
             </div>
+        </div>
+       
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3 offset-1">
+                <div class="adresse">
+                    <strong> Contacter</strong>
+                    <address><h2>Adresse</h2>
+                        Station F <br>
+                        5 Parvis Alan Turing <br>
+                        75013 Paris
+                    </address>
+
+                </div>
+            </div>
+                <div class="col-3 offset-8">
+                    <div>
+                        <div class="form-group">
+                            <label class="media" for="">Recherches</label>
+                            <input type="text" class="form-control" id="#" aria-describedby="text"
+                                placeholder="recherchez...">
+                            <input type="button" value="OK" class="form-control" id="#" aria-describedby="text">
+                        </div>
+                    </div>
+                </div>
+            
         </div>
         <div class="row">
-            <div class="col-4 offset-5">
-                <h3>Le mage cuisine</h3>
+            <div class="col-6">
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=5%20parvis%20Alan%20Turing%2C75013%20paris&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="<a href="https://sites.google.com/view/maps-api-v2/mapv2"></a>"></a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:600px;}</style></div>
             </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="col-4 offset-5">
-            <h3 id="title">Derniers articles</h3>
-        </div>
-    </div>
-    <div class="container" id="section">
-        <div class="row" id="paragraph">
-            <div class="col-2">
-                <div>
-                    <img class="img-article" src="./img/suzette/suzette-header.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-5 offset-1">
-                <div>
-                    <h4>Lorem ipsum dolor sit amet consectetur.</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda consequuntur cupiditate
-                        perferendis nostrum beatae labore? Lorem ipsum dolor sit amet. Lorem, ipsum dolor sit amet
-                        consectetur adipisicing elit. Exercitationem provident excepturi natus perspiciatis illum
-                        dolorem necessitatibus similique eius laboriosam ducimus</p>
-                </div>
-            </div>
-            <div class="col-3">
-                <div>
-                    <div class="form-group">
-                        <label class="media" for="">Recherches</label>
-                        <input type="text" class="form-control" id="#" aria-describedby="text"
-                            placeholder="recherchez...">
-                        <input type="button" value="OK" class="form-control" id="#" aria-describedby="text">
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="row" id="paragraph">
-            <div class="col-2">
-                <div>
-                    <img class="img-article" src="./img/metro/metro-header.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-5 offset-1">
-                <div>
-                    <h4>Lorem ipsum dolor sit amet consectetur.</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda consequuntur cupiditate
-                        perferendis nostrum beatae labore? Lorem ipsum dolor sit amet. Lorem, ipsum dolor sit amet
-                        consectetur adipisicing elit. Exercitationem provident excepturi natus perspiciatis illum
-                        dolorem necessitatibus similique eius laboriosam ducimus</p>
-                </div>
-            </div>
-            <div class="col-3">
+            <div class="col-3 offset-2">
                 <div>
                     <div class="form-group">
                         <label class="media" for="">Newsletter</label>
@@ -126,38 +106,24 @@
                     </div>
 
                 </div>
-            </div>
-        </div>
 
-        <div class="row" id="paragraph">
-            <div class="col-2">
-                <div>
-                    <img class="img-article" src="./img/vitaly/vitaly-header.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-5 offset-1">
-                <div>
-                    <h4>Lorem ipsum dolor sit amet consectetur.</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda consequuntur cupiditate
-                        perferendis nostrum beatae labore? Lorem ipsum dolor sit amet. Lorem, ipsum dolor sit amet
-                        consectetur adipisicing elit. Exercitationem provident excepturi natus perspiciatis illum
-                        dolorem necessitatibus similique eius laboriosam ducimus</p>
-                </div>
-            </div>
-            <div class="col-3">
-                <div>
-                    <label class="media" for="">Partager</label>
+                <div id="multimedia">
+                    <label class=" media" for="">Partager</label>
                     <i class="fab fa-facebook"></i>
                     <i class="fab fa-instagram"></i>
                     <i class="fab fa-youtube"></i>
                     <i class="fab fa-twitter"></i>
-
                 </div>
             </div>
-
+            </div>
         </div>
-
     </div>
+
+
+
+
+    
+
 
     <footer>
         <div class="conatiner bg-dark height">
@@ -182,8 +148,8 @@
                     <h3>Newsletter</h3>
                     <div class="navbar navbar-light">
                         <form class="form-inline">
-                          <input class="form-control mr-sm-2" type="search" placeholder="Email" aria-label="Search">
-                          <button class="btn btn-outline my-2 my-sm-0" type="submit">S'inscrire</button>
+                            <input class="form-control mr-sm-2" type="search" placeholder="Email" aria-label="Search">
+                            <button class="btn btn-outline my-2 my-sm-0" type="submit">S'inscrire</button>
                         </form>
                     </div>
                     <div id="multimedia">
@@ -192,7 +158,7 @@
                         <i class="fab fa-instagram"></i>
                         <i class="fab fa-youtube"></i>
                         <i class="fab fa-twitter"></i>
-    
+
                     </div>
 
                 </div>
