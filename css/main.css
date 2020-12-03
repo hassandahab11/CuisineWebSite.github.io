@@ -38,3 +38,6 @@ footer div ul li a:hover{
     font-size: xx-large;
     font-weight: bold;
 }
+#footer-div{
+    height: auto;
+}
